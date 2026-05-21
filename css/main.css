@@ -201,7 +201,6 @@ body {
   height: 564px;
   margin: 0 auto;
   background-image: url(../images/CTAImg-Wide-1440px+-New.jpg);
-  margin-bottom: 96px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -212,4 +211,100 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.for-visitors p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Inter 28pt";
+  margin-bottom: 10px;
+}
+.for-visitors h2 {
+  width: 540px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-family: "Inter 28pt";
+  margin-bottom: 10px;
+}
+.last-class {
+  background-color: #f3f3f3;
+  padding: 8px 16px;
+  border-radius: 24px;
+  color: Black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Inter 28pt";
+}
+.last-class:hover {
+  background-color: aqua;
+}
+.footer-zone {
+  background-color: #000000;
+  width: 1440px;
+  height: 336px;
+  margin: 0 auto;
+  padding: 96px 0px;
+}
+.footer-class {
+  width: 1140px;
+  height: 144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.footer-class h2 {
+  color: #ffffff;
+  font-size: 24.65px;
+  font-weight: 900;
+  line-height: 26.41px;
+  letter-spacing: -0.44px;
+  font-family: "Inter 28pt";
+  margin-right: 210.6px;
+}
+.footer-class h2:hover {
+  color: crimson;
+}
+.footer-class h4:hover {
+  color: crimson;
+}
+.footer-class h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-family: "Inter 28pt";
+  margin-bottom: 16px;
+}
+.footer-class li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: "Inter 28pt";
+}
+.mg-8{
+  margin-bottom: 8px;
+}
+.footer-class li a:hover {
+  color: darkorange;
+}
+.subscribe-class p {
+  width: 210.6px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: "Inter 28pt";
+  margin-top: 24px;
 }
