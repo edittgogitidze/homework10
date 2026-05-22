@@ -77,6 +77,9 @@ body {
   width: 490px;
   height: 288px;
 }
+.picture {
+  width: 100%;
+}
 .headline-class h1 {
   color: #000000;
   font-size: 56px;
@@ -306,4 +309,17 @@ body {
   letter-spacing: 0px;
   font-family: "Inter 28pt";
   margin-top: 24px;
+}
+@media (max-width: 1024px) {
+  .headline-class {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-class{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .picture{
+    width: 100%;
+  }
 }
